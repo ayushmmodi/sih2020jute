@@ -11,9 +11,10 @@ if (isset($_POST['rebtn']))
 	$email = $_POST['email'];
     $password = $_POST['pwd'];
     $repassword = $_POST['repwd'];
+	$role = $_POST['role'];
     
 
-    if (empty($firstname) || empty($lastname) || empty($username) || empty($email) || empty($password) || empty($repassword) || empty($mobile))
+    if (empty($firstname) || empty($lastname) || empty($username) || empty($email) || empty($password) || empty($repassword) || empty($mobile) || empty($role))
     {
 
         echo "<script>alert('There an empty fields');
@@ -72,7 +73,7 @@ if (isset($_POST['rebtn']))
             }
             else
             {
-                $sql = "INSERT INTO user(first_name,last_name,email,mobile_number,username,password) VALUES (?,?,?,?,?,?)";
+                $sql = "INSERT INTO user(first_name,last_name,email,mobile_number,username,password,role) VALUES (?,?,?,?,?,?,?)";
                 $stmt = mysqli_stmt_init($conn);
                 if (!mysqli_stmt_prepare($stmt, $sql))
                 {
@@ -83,7 +84,7 @@ if (isset($_POST['rebtn']))
                 else
                 {
                     $hashedpwd = password_hash($password, PASSWORD_DEFAULT);
-                    mysqli_stmt_bind_param($stmt, "ssssss", $firstname, $lastname, $email, $mobile, $username, $hashedpwd);
+                    mysqli_stmt_bind_param($stmt, "sssssss", $firstname, $lastname, $email, $mobile, $username, $hashedpwd,$role);
                     mysqli_stmt_execute($stmt);
                     echo "<script>alert('User registered Successfully ');
                     document.location='../login.php'</script>";

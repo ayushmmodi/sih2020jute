@@ -31,7 +31,7 @@ session_start(); ?>
         </li>
         <li class="nav-li list"><a href="./about.html">About Us</a></li>
         <li class="nav-li list"><a href="./services.html">About Jute</a></li>
-        <li class="nav-li list"><a href="./login.php">Statute</a></li>
+        <li class="nav-li list"><a href="./statue.php">Statute</a></li>
         <li class="nav-li list"><a href="./register.php">Data And Stats</a></li>
      
 
@@ -258,10 +258,9 @@ session_start(); ?>
 
 
 
-      <a href="" style="margin-left: 150px; font-size: 25px; text-decoration: none; color: white; ">Gallery</a>
+      <a href="" style="margin-left: 150px; font-size: 25px; text-decoration: none; color: white; ">Faqs</a>
 
-    <a href="" style="margin-left: 150px; font-size: 25px; text-decoration: none; color: white; ">Feedback</a>
-
+    <a href="" style="margin-left: 150px; font-size: 25px; text-decoration: none; color: white; ">Contact Us</a>
 </footer>
 
 

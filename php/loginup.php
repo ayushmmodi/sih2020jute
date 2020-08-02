@@ -44,7 +44,11 @@ if (isset($_POST['lobtn']))
                     $_SESSION['userfname'] = $row['first_name'];
                     $_SESSION['userlname'] = $row['last_name'];
                     $_SESSION['username'] = $row['username']; 
+<<<<<<< HEAD
                     header("Location:../dashboard.php?loginsuccesssss");
+=======
+                    header("Location:../dashboard.php?loginsuccess");
+>>>>>>> refs/remotes/origin/master
                     exit();
                 }
                 else

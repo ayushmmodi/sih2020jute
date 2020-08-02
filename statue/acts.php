@@ -1,15 +1,4 @@
 
-<?php
-session_start();
- if(isset($_SESSION['infor']))
-{
-  $accountant = $_SESSION['infor'];
-
-
-
-}
-
-?>
 
 <!DOCTYPE html>
 <html>
@@ -38,16 +27,16 @@ session_start();
 <div id="navbar" class="navbar" style="background: black;">
       <div class="logo">
        <!-- <img src="./images/logo.png" alt="logo" height="110" width="110" /> -->
-        <a class="logo-word" style="font-weight: bold;"><a class="text-primary" href="index.php" style="font-size: 50px; margin-top: 25px;">Fiber</a><a href="index.php" style="color: white; font-size: 50px; margin-top: 25px;">Cops</a>
+        <a class="logo-word" style="font-weight: bold;"><a class="text-primary" href="../index.php" style="font-size: 50px; margin-top: 25px;">Fiber</a><a href="../index.php" style="color: white; font-size: 50px; margin-top: 25px;">Cops</a>
       </div>
       <ul class="nav-list">
         <li class="nav-li list">
-          <a class="current" href="./index.html">Home</a>
+          <a class="current" href="./index.php">Home</a>
         </li>
-        <li class="nav-li list"><a href="./about.html">About Us</a></li>
-        <li class="nav-li list"><a href="./services.html">About Jute</a></li>
-        <li class="nav-li list"><a href="./statue.php">Statute</a></li>
-        <li class="nav-li list"><a href="./register.php">Data And Stats</a></li>
+        <li class="nav-li list"><a href="../about.html">About Us</a></li>
+       
+        <li class="nav-li list"><a href="../statue.php">Statute</a></li>
+        <li class="nav-li list"><a href="#">Data And Stats</a></li>
      
 
              <li class="nav-li list"> <a href="login.php" data-toggle="modal" data-target="#employee-login-modal" >

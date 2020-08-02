@@ -100,6 +100,12 @@
             
                <!-- <i class="fa fa-key icon"></i> 
                <input type="date" class="dob"id="dob" name="dob"> -->
+<<<<<<< HEAD
+=======
+
+              
+
+>>>>>>> refs/remotes/origin/master
                <input type="submit" value='Register' class="btn-login" id="rebtn" name="rebtn" />
             </div>
          </form>

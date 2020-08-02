@@ -30,7 +30,11 @@ session_start(); ?>
           <a class="current" href="./index.html">Home</a>
         </li>
         <li class="nav-li list"><a href="./about.html">About Us</a></li>
+<<<<<<< HEAD
         <li class="nav-li list"><a href="#">About Jute</a></li>
+=======
+      
+>>>>>>> refs/remotes/origin/master
         <li class="nav-li list"><a href="./statue.php">Statute</a></li>
         <li class="nav-li list"><a href="#">Data And Stats</a></li>
      
@@ -60,32 +64,32 @@ session_start(); ?>
         
         
       </div>
-      <div class="first-below" onclick="window.location.href='contact.html'">
+      <div class="first-below" >
         <div class="first-imge">
-          <div class="nolinear">
+          <div class="nolinear" onclick="window.location.href='info/jute-info.php'">
             <div>
               <img class="logo-firsts" src="./images/wheat.png" alt="healthy-tooth" width="50px" />
             </div>
             <div class="linear">
-              <h3 class="first-head">Jute Info</h3>
-              <p>Know More About Jute</p>
+              <h3 class="first-head" >Jute Info</h3>
+              <p>Know More About Jute</p> 
             </div>
           </div>
         </div>
-        <div class="first-imge">
+        <div class="first-imge"onclick="window.location.href='info/jute-cultivation.php'">
           <div class="nolinear">
             <div>
               <img class="logo-firsts" src="./images/farm.png" alt="healthy-tooth" width="50px" />
             </div>
             <div class="linear">
 
-              <h3 class="first-head">Jute Cultivations</h3>
+              <h3 class="first-head" >Jute Cultivations</h3>
               <p>Jute Cultivation in India: Conditions, Method!</p>
             </div>
           </div>
         </div>
         <div class="first-imge">
-          <div class="nolinear">
+          <div class="nolinear" onclick="window.location.href='info/products.php'">
             <div>
               <img class="logo-firsts" src="./images/product.png" alt="healthy-tooth" width="50px" />
             </div>

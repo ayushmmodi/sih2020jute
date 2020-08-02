@@ -38,18 +38,12 @@ session_start();
       </ul>
     </div>
     <div class="form">
-      <div class="form-logo"> 
-	  <a href="login.php">
-	  <input type="image" src="./images/dentist.png" height="100px" width="100px" class="logo-dentist" />
-	  </a>
+      <div class="form-logo">
 	  <a href="loginp.php">
-        <input type="image" src="./images/man.png" height="100px" />
+        <input type="image" src="./images/flogo.png" height="100px" />
 		</a>
       </div>
-      <div class="img-button-text">
-        <h4 class="text-dentist">Dentist</h4>
-        <h4 class="text-patient">Patient</h4>
-      </div>
+      </br>
       <form action="./php/loginup.php" method="POST">
         <div class="form-group">
           <i class="fa fa-user icon"></i>

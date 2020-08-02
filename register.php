@@ -17,22 +17,35 @@
    </head>
    <body>
       <section id="main" class="main">
-         <div id="navbar" class="navbar">
+      <div id="navbar" class="navbar" style="">
          <div class="logo">
-       <!-- <img src="./images/logo.png" alt="logo" height="110" width="110" /> -->
-        <a class="logo-word" style="font-weight: bold;"><a class="text-primary" href="index.php" style="font-size: 50px; margin-top: 5px;">Fiber</a><a href="index.php" style="color: white; font-size: 50px; margin-top: 5px;">Cops</a>
-      </div>
-            <ul class="nav-list">
-            <li class="nav-li list">
-          <a  href="./index.html">Home</a>
-        </li>
-        <li class="nav-li list"><a href="./about.html">About Us</a></li>
-        <li class="nav-li list"><a href="./services.html">Serivces</a></li>
-        <li class="nav-li list"><a href="./login.php">Login</a></li>
-        <li class="nav-li list"><a class="current" href="./register.php">Register</a></li>
-        <li class="nav-li list"><a href="./contact.html">Contact Us</a></li>
-            </ul>
+          <!-- <img src="./images/logo.png" alt="logo" height="110" width="110" /> -->
+           <a class="logo-word" style="font-weight: bold;"><a class="text-primary" href="index.php" style="font-size: 50px; margin-top: 5px;">Fiber</a><a href="index.php" style="color: white; font-size: 50px; margin-top: 5px;">Cops</a>
          </div>
+         <ul class="nav-list">
+           <li class="nav-li list">
+             <a  href="./index.php">Home</a>
+           </li>
+           <li class="nav-li list"><a  href="./about.php">About Us</a></li>
+           <li class="nav-li list"><a href="./services.html">About Jute</a></li>
+           <li class="nav-li list"><a href="./statue.php">Statute</a></li>
+           <li class="nav-li list"><a href="./register.php">Data And Stats</a></li>
+        
+   
+                <li class="nav-li list"> <a href="login.php" data-toggle="modal" data-target="#employee-login-modal" >
+                                         Login
+                           </a></li>
+   
+                <li class="nav-li list"> <a class="current" href="register.php" data-toggle="modal" data-target="#employee-login-modal" >
+                                         Registration
+                           </a></li>
+   
+   
+   
+   
+               
+         </ul>
+       </div>
          <div class="form">
          <div class="form-logo">
             <a href="register.php"><input
@@ -81,7 +94,7 @@
                
                <!-- <i class="fa fa-key icon"></i> 
                <input type="date" class="dob"id="dob" name="dob"> -->
-               <br>
+          
                <input type="submit" value='Register' class="btn-login" id="rebtn" name="rebtn" />
             </div>
          </form>

@@ -17,26 +17,35 @@ session_start();
 
 <body>
   <section id="main" class="main">
-    <div id="navbar" class="navbar">
-    <div class="logo">
-       <!-- <img src="./images/logo.png" alt="logo" height="110" width="110" /> -->
-        <a class="logo-word" style="font-weight: bold;"><a class="text-primary" href="index.php" style="font-size: 50px; margin-top: 5px;">Fiber</a><a href="index.php" style="color: white; font-size: 50px; margin-top: 5px;">Cops</a>
-      </div>
-      <ul class="nav-list">
-      <li class="nav-li list">
-            <a href="./index.html">Home</a>
-          </li>
-          <li class="nav-li list"><a href="./about.html">About Us</a></li>
-          <li class="nav-li list">
-            <a  href="./services.html">Serivces</a>
-          </li>
-          <li class="nav-li list"><a class="current" href="./login.php">Login</a></li>
-          <li class="nav-li list"><a href="./register.php">Register</a></li>
-          <li class="nav-li list">
-            <a href="./contact.html">Contact Us</a>
-          </li>
-      </ul>
-    </div>
+  <div id="navbar" class="navbar" style="">
+         <div class="logo">
+          <!-- <img src="./images/logo.png" alt="logo" height="110" width="110" /> -->
+           <a class="logo-word" style="font-weight: bold;"><a class="text-primary" href="index.php" style="font-size: 50px; margin-top: 5px;">Fiber</a><a href="index.php" style="color: white; font-size: 50px; margin-top: 5px;">Cops</a>
+         </div>
+         <ul class="nav-list">
+           <li class="nav-li list">
+             <a  href="./index.php">Home</a>
+           </li>
+           <li class="nav-li list"><a  href="./about.php">About Us</a></li>
+           <li class="nav-li list"><a href="./services.html">About Jute</a></li>
+           <li class="nav-li list"><a href="./statue.php">Statute</a></li>
+           <li class="nav-li list"><a href="./register.php">Data And Stats</a></li>
+        
+   
+                <li class="nav-li list"> <a class="current" href="login.php" data-toggle="modal" data-target="#employee-login-modal" > 
+                                         Login
+                           </a></li>
+   
+                <li class="nav-li list"> <a href="register.php" data-toggle="modal" data-target="#employee-login-modal" >
+                                         Registration
+                           </a></li>
+   
+   
+   
+   
+               
+         </ul>
+       </div>
     <div class="form">
       <div class="form-logo">
 	  <a href="loginp.php">
@@ -54,7 +63,7 @@ session_start();
           <input class="input-field" type="password" placeholder="Password" id="pwd" name="pwd">
           <input type="submit" value="Login" class="btn-login" id="lobtn" name="lobtn" />
           <div class="forgot-create">
-            <a href="#">Forgot Password</a>
+            <a href="#" style>Forgot Password</a>
             <br>
             <a href="./register.php"> Create Account </a>
           </div>

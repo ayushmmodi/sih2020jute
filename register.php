@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Walkhoff</title>
+      <title>Fiber Cops</title>
       <link rel="stylesheet" href="./css/style-reg.css" />
       <link
          href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
@@ -64,11 +64,13 @@
          </div>
          <form action="./php/signup.php" method="POST" >
             <div class="form-group">
-            <label for="gender">Role:</label>
-               <select class="gender"id="gender" name="gender">
-                  <option value="male">Farmer</option>
-                  <option value="female">Mill Worker</option>
-                  <option value="other">Other</option>
+            
+               <br>
+            <label for="role">Role:</label>
+               <select class="gender"id="role" name="role">
+                  <option value="Farmer">Farmer</option>
+                  <option value="Mill Worker">Mill Worker</option>
+                  <option value="Other">Other</option>
                </select>
                <br><br><br>
                <!-- <i class="fa fa-user icon"></i>  -->
@@ -81,7 +83,9 @@
                <input class="input-field" type="email" placeholder="Email" id="email" name="email"> 
                <br>
                <!-- <i class="fa fa-user icon"></i>  -->
-               <input class="input-field" type="text" placeholder="Username"id="uname" name="uname"> 
+			   <input class="input-field" type="mobile" placeholder="Mobile" id="uname" name="mobile">
+			   <br>
+               <input class="input-field" type="text" placeholder="Username" id="uname" name="uname"> 
                <br>
                <!-- <i class="fa fa-key icon"></i>  -->
                <input class="input-field" type="password" placeholder="Password" id="pwd" name="pwd"> 
@@ -91,10 +95,16 @@
                <!-- <i class="fa fa-user icon"></i> 
                <input class="input-field" type="number" placeholder="Mobile"id="mobno" name="mobno"> 
                <br> -->
-               
+              
+               <!-- <i class="fa fa-user icon"></i>  -->
+            
                <!-- <i class="fa fa-key icon"></i> 
                <input type="date" class="dob"id="dob" name="dob"> -->
+<<<<<<< HEAD
           
+=======
+              
+>>>>>>> refs/remotes/origin/master
                <input type="submit" value='Register' class="btn-login" id="rebtn" name="rebtn" />
             </div>
          </form>

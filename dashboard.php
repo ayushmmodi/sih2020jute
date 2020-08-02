@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- End layout styles -->
     <link rel="shortcut icon" href="assets/images/favicon.png" />
+
+
   </head>
   <body>
     <div class="container-scroller">
@@ -178,14 +180,14 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html">
-                <span class="menu-title">Mill Workers</span>
+                <span class="menu-title">Add Cost</span>
                 <i class="mdi mdi-home menu-icon"></i>
               </a>
             </li>
             
             <li class="nav-item">
               <a class="nav-link" data-toggle="collapse" href="#general-pages" aria-expanded="false" aria-controls="general-pages">
-                <span class="menu-title">Farmers</span>
+                <span class="menu-title">Add Sell</span>
                 <i class="menu-arrow"></i>
                 <i class="mdi mdi-medical-bag menu-icon"></i>
               </a>

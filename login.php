@@ -56,8 +56,7 @@ session_start();
       <form action="./php/loginup.php" method="POST">
         <div class="form-group">
           <i class="fa fa-user icon"></i>
-          <input class="input-field" type="text" placeholder="Username or Email"
-          id="email" name="email">
+          <input class="input-field" type="text" placeholder="Username or Email" id="email" name="email">
           <br>
           <i class="fa fa-key icon"></i>
           <input class="input-field" type="password" placeholder="Password" id="pwd" name="pwd">

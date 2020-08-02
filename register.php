@@ -53,11 +53,11 @@
             <div class="form-group">
             
                <br>
-            <label for="gender">Role:</label>
-               <select class="gender"id="gender" name="gender">
-                  <option value="male">Farmer</option>
-                  <option value="female">Mill Worker</option>
-                  <option value="other">Other</option>
+            <label for="role">Role:</label>
+               <select class="gender"id="role" name="role">
+                  <option value="Farmer">Farmer</option>
+                  <option value="Mill Worker">Mill Worker</option>
+                  <option value="Other">Other</option>
                </select>
                <br><br><br>
                <!-- <i class="fa fa-user icon"></i>  -->

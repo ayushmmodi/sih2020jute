@@ -12,7 +12,7 @@ if (isset($_POST['rebtn']))
     $password = $_POST['pwd'];
     $repassword = $_POST['repwd'];
 	$role = $_POST['role'];
-    
+    $verify="no";
 
     if (empty($firstname) || empty($lastname) || empty($username) || empty($email) || empty($password) || empty($repassword) || empty($mobile) || empty($role))
     {
@@ -73,7 +73,7 @@ if (isset($_POST['rebtn']))
             }
             else
             {
-                $sql = "INSERT INTO user(first_name,last_name,email,mobile_number,username,password,role) VALUES (?,?,?,?,?,?,?)";
+                $sql = "INSERT INTO user(first_name,last_name,email,mobile_number,username,password,role,verify) VALUES (?,?,?,?,?,?,?,?)";
                 $stmt = mysqli_stmt_init($conn);
                 if (!mysqli_stmt_prepare($stmt, $sql))
                 {
@@ -84,7 +84,7 @@ if (isset($_POST['rebtn']))
                 else
                 {
                     $hashedpwd = password_hash($password, PASSWORD_DEFAULT);
-                    mysqli_stmt_bind_param($stmt, "sssssss", $firstname, $lastname, $email, $mobile, $username, $hashedpwd,$role);
+                    mysqli_stmt_bind_param($stmt, "ssssssss", $firstname, $lastname, $email, $mobile, $username, $hashedpwd,$role,$verify);
                     mysqli_stmt_execute($stmt);
                     echo "<script>alert('User registered Successfully ');
                     document.location='../login.php'</script>";

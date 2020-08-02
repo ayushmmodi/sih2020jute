@@ -27,9 +27,22 @@ if (isset($_POST['lobtn']))
             mysqli_stmt_bind_param($stmt, "ss", $email, $email);
             mysqli_stmt_execute($stmt);
             $result = mysqli_stmt_get_result($stmt);
+
             if ($row = mysqli_fetch_assoc($result))
             {
+<<<<<<< HEAD
 				
+=======
+                $status=$row['verify'];
+                $statusno="no";
+                if (strcmp($status, $statusno) !== 0) { 
+                } 
+                else { 
+                    echo "<script>alert('User Under Verfication');
+                    document.location='../login.php'</script>";
+                    exit(); 
+                }
+>>>>>>> refs/remotes/origin/master
                 $pwdCheck = password_verify($password, $row["password"]);
                 if ($pwdCheck == false)
                 {

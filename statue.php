@@ -43,16 +43,16 @@ session_start();
              <a  href="./index.php">Home</a>
            </li>
            <li class="nav-li list"><a class="current" href="./about.php">About Us</a></li>
-           <li class="nav-li list"><a href="./services.html">About Jute</a></li>
+           <li class="nav-li list"><a href="#">About Jute</a></li>
            <li class="nav-li list"><a href="./statue.php">Statute</a></li>
-           <li class="nav-li list"><a href="./register.php">Data And Stats</a></li>
+           <li class="nav-li list"><a href="#">Data And Stats</a></li>
         
    
-                <li class="nav-li list"> <a href="admin_login.php" data-toggle="modal" data-target="#employee-login-modal" >
+                <li class="nav-li list"> <a href="login.php" data-toggle="modal" data-target="#employee-login-modal" >
                                          Login
                            </a></li>
    
-                <li class="nav-li list"> <a href="admin_login.php" data-toggle="modal" data-target="#employee-login-modal" >
+                <li class="nav-li list"> <a href="register.php" data-toggle="modal" data-target="#employee-login-modal" >
                                          Registration
                            </a></li>
    

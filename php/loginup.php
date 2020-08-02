@@ -14,7 +14,7 @@ if (isset($_POST['lobtn']))
     }
     else
     {
-        $sql = "SELECT * FROM login_signup WHERE uname=? OR email=?; ";
+        $sql = "SELECT * FROM user WHERE username=? OR email=? ";
         $stmt = mysqli_stmt_init($conn);
         if (!mysqli_stmt_prepare($stmt, $sql))
         {
@@ -29,7 +29,7 @@ if (isset($_POST['lobtn']))
             $result = mysqli_stmt_get_result($stmt);
             if ($row = mysqli_fetch_assoc($result))
             {
-                $pwdCheck = password_verify($password, $row["pwd"]);
+                $pwdCheck = password_verify($password, $row["password"]);
                 if ($pwdCheck == false)
                 {
                     
@@ -40,10 +40,10 @@ if (isset($_POST['lobtn']))
                 elseif ($pwdCheck == true)
                 {
                     session_start();
-                    $_SESSION['userId'] = $row['userid'];
-                    $_SESSION['userfname'] = $row['fname'];
-                    $_SESSION['userlname'] = $row['lname'];
-                    $_SESSION['username'] = $row['uname']; 
+                    $_SESSION['userId'] = $row['username'];
+                    $_SESSION['userfname'] = $row['first_name'];
+                    $_SESSION['userlname'] = $row['last_name'];
+                    $_SESSION['username'] = $row['username']; 
                     header("Location:../doctor-dashboard/dashboard.php?loginsuccess");
                     exit();
                 }
@@ -56,7 +56,7 @@ if (isset($_POST['lobtn']))
             }
             else
             {
-                         echo "<script>alert('There is nouser with this Email or Username  ');
+                         echo "<script>alert('There is no user with this Email or Username  ');
                  document.location='../login.php'</script>";
                 exit();
             }

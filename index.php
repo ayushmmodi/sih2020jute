@@ -19,7 +19,35 @@ session_start(); ?>
 
 <body>
   <section class="main">
-    <?php include("navbar.php"); ?>
+    <div id="navbar" class="navbar" style="background: black;">
+      <div class="logo">
+       <!-- <img src="./images/logo.png" alt="logo" height="110" width="110" /> -->
+        <a class="logo-word" style="font-weight: bold;"><a class="text-primary" href="index.php" style="font-size: 50px; margin-top: 25px;">Fiber</a><a href="index.php" style="color: white; font-size: 50px; margin-top: 25px;">Cops</a>
+      </div>
+      <ul class="nav-list">
+        <li class="nav-li list">
+          <a class="current" href="./index.html">Home</a>
+        </li>
+        <li class="nav-li list"><a href="./about.html">About Us</a></li>
+        <li class="nav-li list"><a href="./services.html">About Jute</a></li>
+        <li class="nav-li list"><a href="./login.php">Statute</a></li>
+        <li class="nav-li list"><a href="./register.php">Data And Stats</a></li>
+     
+
+             <li class="nav-li list"> <a href="admin_login.php" data-toggle="modal" data-target="#employee-login-modal" >
+                                      Login
+                        </a></li>
+
+             <li class="nav-li list"> <a href="admin_login.php" data-toggle="modal" data-target="#employee-login-modal" >
+                                      Registration
+                        </a></li>
+
+
+
+
+            
+      </ul>
+    </div>
     <section class="first-sec">
       <div class="first-above">
         <h1 class="motto-second">
@@ -167,7 +195,23 @@ session_start(); ?>
   </section>
  
 
-<?php  include("footer.php"); ?>
+<footer style="background: black; padding: 100px;">
+  
+
+    <a href="" style="margin-left: 150px; font-size: 35px; text-decoration: none; color: white; ">Gallery</a>
+
+    <a href="" style="margin-left: 250px; font-size: 35px; text-decoration: none; color: white; ">Feedback</a>
+
+
+    <a class="logo-word" style="font-weight: bold;"><a class="text-primary" href="index.php" style="font-size: 50px; margin-left: 200px;">Fiber</a><a href="index.php" style="color: white; font-size: 50px; margin-top: 25px;">Cops</a>
+
+
+
+      <a href="" style="margin-left: 200px; font-size: 35px; text-decoration: none; color: white; ">Gallery</a>
+
+    <a href="" style="margin-left: 250px; font-size: 35px; text-decoration: none; color: white; ">Feedback</a>
+
+</footer>
 
 
 </body>

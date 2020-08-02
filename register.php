@@ -27,7 +27,7 @@
              <a  href="./index.php">Home</a>
            </li>
            <li class="nav-li list"><a  href="./about.php">About Us</a></li>
-           <li class="nav-li list"><a href="./services.html">About Jute</a></li>
+          
            <li class="nav-li list"><a href="./statue.php">Statute</a></li>
            <li class="nav-li list"><a href="./register.php">Data And Stats</a></li>
         

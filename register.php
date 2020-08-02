@@ -37,20 +37,27 @@
          <div class="form-logo">
             <a href="register.php"><input
             type="image"
-            src="./images/dentist.png"
+            src="./images/flogo.png"
             height="100px"
             width="100px"
             class="logo-dentist"
             /></a>
-            <a href="registerp.php">
-            <input type="image" src="./images/man.png" height="100px" /></a>
+            <!-- <a href="registerp.php">
+            <input type="image" src="./images/man.png" height="100px" /></a> -->
          </div>
          <div class="img-button-text">
-            <h4 class="text-dentist">Dentist</h4>
-            <h4 class="text-patient">Patient</h4>
+            <!-- <h4 class="text-dentist">Dentist</h4>
+            <h4 class="text-patient">Patient</h4> -->
          </div>
          <form action="./php/signup.php" method="POST" >
             <div class="form-group">
+            <label for="gender">Role:</label>
+               <select class="gender"id="gender" name="gender">
+                  <option value="male">Farmer</option>
+                  <option value="female">Mill Worker</option>
+                  <option value="other">Other</option>
+               </select>
+               <br>
                <!-- <i class="fa fa-user icon"></i>  -->
                <input class="input-field" type="text" placeholder=" First Name" id="fname" name="fname"> 
                <br>
@@ -73,10 +80,10 @@
                <br> -->
                <br>
                <!-- <i class="fa fa-user icon"></i>  -->
-               <label for="gender">Gender:</label>
+               <label for="gender">Role:</label>
                <select class="gender"id="gender" name="gender">
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
+                  <option value="male">Farmer</option>
+                  <option value="female">Mill Worker</option>
                   <option value="other">Other</option>
                </select>
                <br>

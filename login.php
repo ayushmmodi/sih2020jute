@@ -18,9 +18,9 @@ session_start();
 <body>
   <section id="main" class="main">
     <div id="navbar" class="navbar">
-      <div class="logo">
-        <img src="./images/logo.png" alt="logo" height="110" width="100" />
-        <h1 class="logo-word"><span class="text-primary">Walk</span>hoff</h1>
+    <div class="logo">
+       <!-- <img src="./images/logo.png" alt="logo" height="110" width="110" /> -->
+        <a class="logo-word" style="font-weight: bold;"><a class="text-primary" href="index.php" style="font-size: 50px; margin-top: 5px;">Fiber</a><a href="index.php" style="color: white; font-size: 50px; margin-top: 5px;">Cops</a>
       </div>
       <ul class="nav-list">
       <li class="nav-li list">
@@ -43,7 +43,7 @@ session_start();
         <input type="image" src="./images/flogo.png" height="100px" />
 		</a>
       </div>
-      </br>
+      </br><br>
       <form action="./php/loginup.php" method="POST">
         <div class="form-group">
           <i class="fa fa-user icon"></i>

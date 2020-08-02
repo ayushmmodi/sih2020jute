@@ -25,7 +25,7 @@
     <?php include('nav.php'); ?>
     <div class="main-panel">
           <div class="content-wrapper">
-            <div class="row" id="proBanner">
+            <!-- <div class="row" id="proBanner">
               <div class="col-12">
                 <span class="d-flex align-items-center purchase-popup">
                   <p>Like what you see? Check out our premium version for more.</p>
@@ -34,20 +34,17 @@
                   <i class="mdi mdi-close" id="bannerClose"></i>
                 </span>
               </div>
-            </div>
-            <div class="page-header">
-              <h3 class="page-title">
-                <span class="page-title-icon bg-gradient-primary text-white mr-2">
-                  <i class="mdi mdi-home"></i>
-                </span> Dashboard </h3>
+            </div> -->
+            <!-- <div class="page-header">
+             
               <nav aria-label="breadcrumb">
                 <ul class="breadcrumb">
                   <li class="breadcrumb-item active" aria-current="page">
-                    <span></span>Overview <i class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
+                   
                   </li>
                 </ul>
               </nav>
-            </div>
+            </div> -->
             <div class="row">
               <div class="col-md-4 stretch-card grid-margin">
                 <div class="card bg-gradient-danger card-img-holder text-white">

@@ -52,21 +52,34 @@
                         <label for="exampleInputName1">Mill Name</label>
                         <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
                       </div>
-                    
+
+                      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                    <script>
+                      $(document).ready(function(){
+      //function to calculate total
+     
+      $('#inpc').keyup(function(){
+         var kgcal =  $('#inpc').val();
+         var sum = (kgcal *4*9.81)/(3.1415*(0.0175^2));
+             $("#test1").text("strength : "+sum);
+
+      });
+});
+                    </script>
 
                     <div class="form-group">
                         <label for="exampleInputMobile" >Weight</label>
-                         <input type="text" class="form-control" id="exampleInputMobile" placeholder="Weight">
+                         <input type="number" class="form-control" id="inpc" placeholder="Weight">
                        
                       </div>
-
-                      <div class="form-group">
+<p id="test1"></p>
+                      <!-- <div class="form-group">
                         <label for="exampleSelectGender">Gender</label>
                         <select class="form-control" id="exampleSelectGender">
                           <option>Male</option>
                           <option>Female</option>
                         </select>
-                      </div>
+                      </div> -->
 
                     
                     <div class="form-group">

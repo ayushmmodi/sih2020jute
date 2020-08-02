@@ -60,13 +60,13 @@
                        
                       </div>
 
-                      <div class="form-group">
+                      <!-- <div class="form-group">
                         <label for="exampleSelectGender">Gender</label>
                         <select class="form-control" id="exampleSelectGender">
                           <option>Male</option>
                           <option>Female</option>
                         </select>
-                      </div>
+                      </div> -->
 
                     
                     <div class="form-group">

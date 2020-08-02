@@ -30,9 +30,6 @@ if (isset($_POST['lobtn']))
 
             if ($row = mysqli_fetch_assoc($result))
             {
-<<<<<<< HEAD
-				
-=======
                 $status=$row['verify'];
                 $statusno="no";
                 if (strcmp($status, $statusno) !== 0) { 
@@ -42,7 +39,6 @@ if (isset($_POST['lobtn']))
                     document.location='../login.php'</script>";
                     exit(); 
                 }
->>>>>>> refs/remotes/origin/master
                 $pwdCheck = password_verify($password, $row["password"]);
                 if ($pwdCheck == false)
                 {

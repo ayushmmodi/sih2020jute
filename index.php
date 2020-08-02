@@ -30,11 +30,7 @@ session_start(); ?>
           <a class="current" href="./index.html">Home</a>
         </li>
         <li class="nav-li list"><a href="./about.html">About Us</a></li>
-<<<<<<< HEAD
         <li class="nav-li list"><a href="#">About Jute</a></li>
-=======
-      
->>>>>>> refs/remotes/origin/master
         <li class="nav-li list"><a href="./statue.php">Statute</a></li>
         <li class="nav-li list"><a href="#">Data And Stats</a></li>
      

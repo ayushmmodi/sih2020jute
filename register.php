@@ -27,7 +27,7 @@
              <a  href="./index.php">Home</a>
            </li>
            <li class="nav-li list"><a  href="./about.php">About Us</a></li>
-           <li class="nav-li list"><a href="./services.html">About Jute</a></li>
+          
            <li class="nav-li list"><a href="./statue.php">Statute</a></li>
            <li class="nav-li list"><a href="./register.php">Data And Stats</a></li>
         
@@ -100,12 +100,6 @@
             
                <!-- <i class="fa fa-key icon"></i> 
                <input type="date" class="dob"id="dob" name="dob"> -->
-<<<<<<< HEAD
-=======
-
-              
-
->>>>>>> refs/remotes/origin/master
                <input type="submit" value='Register' class="btn-login" id="rebtn" name="rebtn" />
             </div>
          </form>

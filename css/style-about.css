@@ -10,7 +10,7 @@ a {
   text-decoration: none;
 }
 .main{
-  background: url("../images/hero_bg_2.jpg") no-repeat center center/cover;
+  background: url("../images/back2.jpg") no-repeat center center/cover;
 }
 .logo {
   margin: 10px 20px;
@@ -78,6 +78,8 @@ a {
   width: 620px;
 }
 .first-below p {
+	color: #000000;
+   
   line-height: 2;
 }
 .achieve {

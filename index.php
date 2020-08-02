@@ -35,11 +35,11 @@ session_start(); ?>
         <li class="nav-li list"><a href="./register.php">Data And Stats</a></li>
      
 
-             <li class="nav-li list"> <a href="admin_login.php" data-toggle="modal" data-target="#employee-login-modal" >
+             <li class="nav-li list"> <a href="login.php" data-toggle="modal" data-target="#employee-login-modal" >
                                       Login
                         </a></li>
 
-             <li class="nav-li list"> <a href="admin_login.php" data-toggle="modal" data-target="#employee-login-modal" >
+             <li class="nav-li list"> <a href="register.php" data-toggle="modal" data-target="#employee-login-modal" >
                                       Registration
                         </a></li>
 

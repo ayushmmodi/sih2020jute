@@ -44,7 +44,7 @@ if (isset($_POST['lobtn']))
                     $_SESSION['userfname'] = $row['first_name'];
                     $_SESSION['userlname'] = $row['last_name'];
                     $_SESSION['username'] = $row['username']; 
-                    header("Location:../doctor-dashboard/dashboard.php?loginsuccess");
+                    header("Location:../dashboard.php?loginsuccess");
                     exit();
                 }
                 else

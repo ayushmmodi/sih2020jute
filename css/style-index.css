@@ -12,8 +12,10 @@ a {
   text-decoration: none;
 }
 .logo {
-  margin: 10px 20px;
+  margin: -12px 20px;
+
   display: flex;
+
 }
 .navbar {
   display: flex;
@@ -33,7 +35,7 @@ a {
 .nav-li {
   padding: 15px;
   list-style: none;
-  margin-top: 25px;
+  margin-top: 20px;
   height: 3rem;
 }
 .logo-word {
@@ -92,12 +94,18 @@ a {
   padding-bottom: 5px;
 }
 .first-imge {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   border-radius: 5px;
   padding: 20px;
   height: 130px;
   width: 350px;
   margin-right: 35px;
+  transition: 0.3s;
+}
+
+.first-imge:hover {
+
+  background: rgba(0,0,0,0.9);
 }
 .nolinear {
   display: flex;
@@ -107,8 +115,25 @@ a {
   flex-direction: column;
   padding-left: 10px;
 }
+
+.linear a{
+
+  font-size: 22px;
+  transition: 0.3s;
+  text-decoration: none;
+  color: black;
+}
+
+.linear a:hover
+{
+
+  font-size: 160%;
+}
+
 .main{
-  background: url("../images/hero_bg_1.jpg") no-repeat center center/cover;
+  background: url("../images/jute_bg.jpg") no-repeat center center/cover;
+
+
 }
 .first-bel{
   
@@ -124,6 +149,7 @@ a {
   padding-bottom: 60px;
   color: #333;
 }
+
 .first-he{
   font-size: 50px;
   color: #333;

@@ -51,10 +51,8 @@
          </div>
          <form action="./php/signup.php" method="POST" >
             <div class="form-group">
-<<<<<<< HEAD
             
                <br>
-=======
             <label for="gender">Role:</label>
                <select class="gender"id="gender" name="gender">
                   <option value="male">Farmer</option>
@@ -62,7 +60,6 @@
                   <option value="other">Other</option>
                </select>
                <br><br><br>
->>>>>>> 4cb6682740e35fab17f595ac7e7e04a726cb4a6f
                <!-- <i class="fa fa-user icon"></i>  -->
                <input class="input-field" type="text" placeholder=" First Name" id="fname" name="fname"> 
                <br>
@@ -85,17 +82,12 @@
                <!-- <i class="fa fa-user icon"></i> 
                <input class="input-field" type="number" placeholder="Mobile"id="mobno" name="mobno"> 
                <br> -->
-<<<<<<< HEAD
-               <br>
+              
                <!-- <i class="fa fa-user icon"></i>  -->
-               
-               <br>
-=======
-               
->>>>>>> 4cb6682740e35fab17f595ac7e7e04a726cb4a6f
+            
                <!-- <i class="fa fa-key icon"></i> 
                <input type="date" class="dob"id="dob" name="dob"> -->
-               <br>
+              
                <input type="submit" value='Register' class="btn-login" id="rebtn" name="rebtn" />
             </div>
          </form>

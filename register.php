@@ -18,10 +18,10 @@
    <body>
       <section id="main" class="main">
          <div id="navbar" class="navbar">
-            <div class="logo">
-               <img src="./images/logo.png" alt="logo" height="110" width="100" />
-               <h1 class="logo-word"><span class="text-primary">Walk</span>hoff</h1>
-            </div>
+         <div class="logo">
+       <!-- <img src="./images/logo.png" alt="logo" height="110" width="110" /> -->
+        <a class="logo-word" style="font-weight: bold;"><a class="text-primary" href="index.php" style="font-size: 50px; margin-top: 5px;">Fiber</a><a href="index.php" style="color: white; font-size: 50px; margin-top: 5px;">Cops</a>
+      </div>
             <ul class="nav-list">
             <li class="nav-li list">
           <a  href="./index.html">Home</a>
@@ -51,8 +51,18 @@
          </div>
          <form action="./php/signup.php" method="POST" >
             <div class="form-group">
+<<<<<<< HEAD
             
                <br>
+=======
+            <label for="gender">Role:</label>
+               <select class="gender"id="gender" name="gender">
+                  <option value="male">Farmer</option>
+                  <option value="female">Mill Worker</option>
+                  <option value="other">Other</option>
+               </select>
+               <br><br><br>
+>>>>>>> 4cb6682740e35fab17f595ac7e7e04a726cb4a6f
                <!-- <i class="fa fa-user icon"></i>  -->
                <input class="input-field" type="text" placeholder=" First Name" id="fname" name="fname"> 
                <br>
@@ -75,10 +85,14 @@
                <!-- <i class="fa fa-user icon"></i> 
                <input class="input-field" type="number" placeholder="Mobile"id="mobno" name="mobno"> 
                <br> -->
+<<<<<<< HEAD
                <br>
                <!-- <i class="fa fa-user icon"></i>  -->
                
                <br>
+=======
+               
+>>>>>>> 4cb6682740e35fab17f595ac7e7e04a726cb4a6f
                <!-- <i class="fa fa-key icon"></i> 
                <input type="date" class="dob"id="dob" name="dob"> -->
                <br>

@@ -43,55 +43,36 @@ session_start();
     <body>
 
 
-      <nav class="navbar sticky-top navbar-dark bg-dark" style="">
-        <a class="brand-title" href="index.php" style="text-decoration: none; color: white";>Fiber Cops</a>
-        <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-          <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
+     <section class="main">
+    <div id="navbar" class="navbar" style="background: black;">
+      <div class="logo">
+       <!-- <img src="./images/logo.png" alt="logo" height="110" width="110" /> -->
+        <a class="logo-word" style="font-weight: bold;"><a class="text-primary" href="index.php" style="font-size: 50px; margin-top: 25px;">Fiber</a><a href="index.php" style="color: white; font-size: 50px; margin-top: 25px;">Cops</a>
+      </div>
+      <ul class="nav-list">
+        <li class="nav-li list">
+          <a class="current" href="./index.html">Home</a>
+        </li>
+        <li class="nav-li list"><a href="./about.html">About Us</a></li>
+        <li class="nav-li list"><a href="./services.html">About Jute</a></li>
+        <li class="nav-li list"><a href="./statue.php">Statute</a></li>
+        <li class="nav-li list"><a href="./register.php">Data And Stats</a></li>
+     
 
-             <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About Jute
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="info/jute-info.php" style="color: black">Jute info</a>
-          <a class="dropdown-item" href="info/jute-cultivation.php" style="color: black">Cultivation</a>
-          <a class="dropdown-item" href="info/products.php" style="color: black">Products</a>
-          
-        </div>
-      </li> 
+             <li class="nav-li list"> <a href="admin_login.php" data-toggle="modal" data-target="#employee-login-modal" >
+                                      Login
+                        </a></li>
+
+             <li class="nav-li list"> <a href="admin_login.php" data-toggle="modal" data-target="#employee-login-modal" >
+                                      Registration
+                        </a></li>
 
 
 
-              <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Statue
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="statue/acts.php" style="color: black">Acts</a>
-          <a class="dropdown-item" href="statue/orders.php" style="color: black">Orders</a>
-          <a class="dropdown-item" href="statue/rules.php" style="color: black">Rules</a>
-          <a class="dropdown-item" href="statue/national-jute-policy-2005.php" style="color: black">National Jute Policy 2005</a>
-        </div>
-      </li> 
-           
 
-             <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Data & Stats
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="list-of-jute-mills.php" style="color: black">List Of Jute Mills In India</a>
-          <a class="dropdown-item" href="income-graph.php" style="color: black">Income Graph</a>
-          
-        </div>
-      </li> 
+            
+      </ul>
+    </div>
 
 <!--
             <li><a href="about.php">Major Links</a></li>

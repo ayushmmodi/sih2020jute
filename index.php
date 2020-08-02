@@ -54,9 +54,9 @@ session_start(); ?>
         <h1 class="motto-second">
           Jute
         </h1>
-        <p class="motto-first" style="font-weight: bolder;">
+        <a class="motto-first" style="font-weight: bolder;">
           Jute is an important natural fibre crop in India next to cotton.<br>In trade and industry, jute and mesta crop together known as raw <br>jute as their uses are almost same.
-        </p>
+        </a>
         
         
       </div>

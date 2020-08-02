@@ -71,8 +71,9 @@ a {
 }
 .motto-first {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   padding-bottom: 7px;
+  font-weight: bolder;
 }
 .motto-second {
   font-size: 75px;
@@ -131,7 +132,7 @@ a {
 }
 
 .main{
-  background: url("../images/jute_bg.jpg") no-repeat center center/cover;
+  background: url("../images/jute_bg.png") no-repeat center center/cover;
 
 
 }

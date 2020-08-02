@@ -38,12 +38,7 @@ session_start();
    
                 <li class="nav-li list"> <a href="register.php" data-toggle="modal" data-target="#employee-login-modal" >
                                          Registration
-                           </a></li>
-   
-   
-   
-   
-               
+                           </a></li>    
          </ul>
        </div>
     <div class="form">
@@ -53,7 +48,7 @@ session_start();
 		</a>
       </div>
       </br><br>
-      <form action="./php/loginup.php" method="POST">
+      <form action="./php/loginupp.php" method="POST">
         <div class="form-group">
         <input type="radio" onclick="document.location.href='login.php'"  name="choicef" class="lgtype" value="farmer"/> &nbsp;Farmer&nbsp;&nbsp;&nbsp;
           <input type="radio" checked onclick="document.location.href='login_mw.php'"  name="choicemw" class="lgtype" value="millworker"/>&nbsp;Mill Worker<br><br>

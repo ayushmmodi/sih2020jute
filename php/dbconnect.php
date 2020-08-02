@@ -6,7 +6,7 @@ $dbUsername = "root";
 
 $dbPassword = "";
 
-$dbName = "walkhoff";
+$dbName = "fiber_cops";
 
 $conn =mysqli_connect($servername, $dbUsername, $dbPassword, $dbName);
 

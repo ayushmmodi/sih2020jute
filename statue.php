@@ -42,9 +42,9 @@ session_start();
            <li class="nav-li list">
              <a  href="./index.php">Home</a>
            </li>
-           <li class="nav-li list"><a class="current" href="./about.php">About Us</a></li>
-           <li class="nav-li list"><a href="#">About Jute</a></li>
-           <li class="nav-li list"><a href="./statue.php">Statute</a></li>
+           <li class="nav-li list"><a  href="./about.php">About Us</a></li>
+      
+           <li class="nav-li list"><a class="current" href="./statue.php">Statute</a></li>
            <li class="nav-li list"><a href="#">Data And Stats</a></li>
         
    

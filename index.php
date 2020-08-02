@@ -85,7 +85,7 @@ session_start(); ?>
           </div>
         </div>
         <div class="first-imge">
-          <div class="nolinear">
+          <div class="nolinear" onclick="window.location.href='info/products.php'">
             <div>
               <img class="logo-firsts" src="./images/product.png" alt="healthy-tooth" width="50px" />
             </div>

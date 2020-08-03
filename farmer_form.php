@@ -61,9 +61,9 @@
                 <div class="card">
                   <div class="card-body">
                     <h4 class="card-title">Farmer's Details</h4>
-                    <p class="card-description"> Fill Your Details </p>
+                    <p class="card-description"> Fill Your Details </p><br>
                     <form class="forms-sample" action="dashboard.php" method="post">
-
+                    <h3 class="page-title"> Account Details </h3><br>
                       <div class="form-group">
                         <label for="exampleInputName1">BANK NAME</label>
                         <input type="text" class="form-control" id="exampleInputName1" placeholder="Bank Name">
@@ -84,7 +84,7 @@
                         <label for="exampleInputMobile" >ACCOUNT NUMBER</label>
                          <input type="text" class="form-control" id="exampleInputMobile" placeholder="Account Number">
                        
-                      </div>
+                      </div><br>
                       <!-- <div class="form-group">
                         <label for="exampleSelectGender">Gender</label>
                         <select class="form-control" id="exampleSelectGender">
@@ -93,7 +93,7 @@
                         </select>
                       </div> -->
 
-                    
+                      <h3 class="page-title"> Other Details </h3><br>
                     <div class="form-group">
                         <label for="exampleInputMobile" >YOUR YEARLY INCOME</label>
                          <input type="text" class="form-control" id="exampleInputMobile" placeholder="Yearly Income">

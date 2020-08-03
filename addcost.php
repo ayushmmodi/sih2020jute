@@ -8,13 +8,21 @@
     <!-- plugins:css -->
     <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- End layout styles -->
     <link rel="shortcut icon" href="assets/images/favicon.png" />
+
+
   </head>
   <body>
     <div class="container-scroller">
- <?php include('nav.php'); ?>
+      <?php include('nav.php'); ?>
         <!-- partial -->
         <div class="main-panel">
           <div class="content-wrapper">
@@ -27,44 +35,62 @@
                 </ol>
               </nav>
             </div>
+
+
+
             <div class="row">
+
+
               <div class="col-12 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title">Add costing</h4>
+                    <h4 class="card-title">Add Costing</h4>
                     <p class="card-description"> of your production </p>
                     <form class="forms-sample">
+
                       <div class="form-group">
-                        <label for="exampleInputName1">Mill Name</label>
+                        <label for="exampleInputName1">SEEDS PURCHASED</label>
                         <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
                       </div>
+                    
 
-                      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-                    <script>
-                      $(document).ready(function(){
-      //function to calculate total
-     
-      $('#inpc').keyup(function(){
-         var kgcal =  $('#inpc').val();
-         var sum = (kgcal *4*9.81)/(3.1415*(0.0175^2));
-             $("#test1").text("strength : "+sum);
-      });
-});
-                    </script>
                     <div class="form-group">
-                        <label for="exampleInputMobile" >Weight</label>
-                         <input type="number" class="form-control" id="inpc" placeholder="Weight">                     
+                        <label for="exampleInputMobile" >WATAER BILLS</label>
+                         <input type="text" class="form-control" id="exampleInputMobile" placeholder="Weight">
+                       
                       </div>
-<p id="test1"></p>
+
+                      <!-- <div class="form-group">
+                        <label for="exampleSelectGender">Gender</label>
+                        <select class="form-control" id="exampleSelectGender">
+                          <option>Male</option>
+                          <option>Female</option>
+                        </select>
+                      </div> -->
+
+                    
                     <div class="form-group">
-                        <label for="exampleInputMobile" >Price</label>
+                        <label for="exampleInputMobile" >ELECTRICITY BILLS</label>
+                         <input type="text" class="form-control" id="exampleInputMobile" placeholder="Mobile number">
+                       
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputMobile" >HARVESTING BILLS</label>
                          <input type="text" class="form-control" id="exampleInputMobile" placeholder="Mobile number">
                        
                       </div>
                       <div class="form-group">
-                        <label for="exampleTextarea1">Textarea</label>
-                        <textarea class="form-control" id="exampleTextarea1" rows="4"></textarea>
+                        <label for="exampleInputMobile" >TRANSPORT BILLS</label>
+                         <input type="text" class="form-control" id="exampleInputMobile" placeholder="Mobile number">
+                       
                       </div>
+                      <div class="form-group">
+                        <label for="exampleInputMobile" >OTHER (COST AND NARRATION)</label>
+                         <input type="text" class="form-control" id="exampleInputMobile" placeholder="Mobile number">
+                       
+                      </div>
+                      
                       <button type="submit" class="btn btn-gradient-primary mr-2">Submit</button>
                       <button class="btn btn-light">Cancel</button>
                     </form>
@@ -72,7 +98,11 @@
                 </div>
               </div>
             </div>
+
+
           </div>
+          <!-- content-wrapper ends -->
+          <!-- partial:partials/_footer.html -->
           <footer class="footer">
             <div class="d-sm-flex justify-content-center justify-content-sm-between">
               <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2017 <a href="https://www.bootstrapdash.com/" target="_blank">BootstrapDash</a>. All rights reserved.</span>

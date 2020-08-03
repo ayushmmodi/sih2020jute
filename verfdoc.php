@@ -32,45 +32,39 @@
              $(document).ready(function(){
       //function to calculate total
      
-      $('#rej').click(function(){
-         $('#proBanner').hide();
+      $('#check11').click(function(){
+         $('#data1').show();
       });
-
-         $('#accreq').click(function(){
-         $('#proBanner').hide();
-      });
-
-
 });
 
 </script>
-
- 
-
-				<div class="row" id="proBanner">
-				  <div class="col-12">
-					<span class="d-flex align-items-center purchase-popup">
-					<table>
-					  <tr>
-					  <td style="width:500px">
-					  Ayush Jutewala
-					  </td>
-					 <td style="width:500px">
-					  <a href="verfdoc.php?id=ff" target="_blank">Verify Documents</a>
-					  </td>
-					  <td style="width:500px">
-					  <a href="#" id="rej" class="btn btn-gradient-danger btn-fw">Deny</a>
-					  <a href="acceptfarmer.php" id="accreq" target="_blank" class="btn purchase-button">Accept</a>
-					  </td>
-					  </tr>
-					  <i class="mdi mdi-close" id="bannerClose"></i>
-					  
-					  </table>
-					</span>
-				  </div>
-				</div>
+		<?php	$id= $_GET['id'];?>
 				
-				
+
+        <?php
+
+// Database configuration
+$dbHost     = "localhost";
+$dbUsername = "root";
+$dbPassword = "";
+$dbName     = "fiber_cops";
+
+$db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+
+// Get images from the database
+$query = $db->query("SELECT * FROM files ORDER BY id DESC");
+$cc = 0;
+if($query->num_rows > 0){
+    while($row = $query->fetch_assoc()){
+        $imageURL = 'uploads/'.$row["file_name"];
+        $cc = $cc+1;
+?>
+<h1>page <?php echo $cc?></h1>
+    <img src="<?php echo $imageURL; ?>" alt="" /><br><br><br>
+<?php }
+}else{ ?>
+    <p>No image(s) found...</p>
+<?php } ?> 
           
           <!-- content-wrapper ends -->
           <!-- partial:partials/_footer.html -->

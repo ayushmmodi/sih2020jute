@@ -24,9 +24,9 @@
     <div class="container-scroller">
     <?php include('adminnav.php'); ?>
     <div class="main-panel">
-		<div class="content-wrapper">
-				
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <div class="content-wrapper">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 
              $(document).ready(function(){
@@ -47,30 +47,42 @@
 
  
 
-				<div class="row" id="proBanner">
-				  <div class="col-12">
-					<span class="d-flex align-items-center purchase-popup">
-					<table>
-					  <tr>
-					  <td style="width:500px">
-					  Ayush Jutewala
-					  </td>
-					 <td style="width:500px">
-					  <a href="verfdoc.php?id=ff" target="_blank">Verify Documents</a>
-					  </td>
-					  <td style="width:500px">
-					  <a href="#" id="rej" class="btn btn-gradient-danger btn-fw">Deny</a>
-					  <a href="acceptfarmer.php" id="accreq" target="_blank" class="btn purchase-button">Accept</a>
-					  </td>
-					  </tr>
-					  <i class="mdi mdi-close" id="bannerClose"></i>
-					  
-					  </table>
-					</span>
-				  </div>
-				</div>
-				
-				
+       <div class="row">
+              <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Recent Reports</h4>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th> Farmer Name </th>
+                            <th> Date </th>
+                            <th> Status </th>
+                            <th> Last Update </th>
+                            <th> Download </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <img src="assets/images/faces/face1.jpg" class="mr-2" alt="image"> David Grey </td>
+                            <td> 3/08/2020 </td>
+                            <td>
+                              <label class="badge badge-gradient-success">DONE</label>
+                            </td>
+                            <td> Aug 3, 2020 </td>
+                            <td> <a href="#">download</a> </td>
+                          </tr>
+                        
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
           
           <!-- content-wrapper ends -->
           <!-- partial:partials/_footer.html -->

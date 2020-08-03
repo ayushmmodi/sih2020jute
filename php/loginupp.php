@@ -14,12 +14,12 @@ if (isset($_POST['lobtn']))
     }
     else
     {
-        $sql = "SELECT * FROM user WHERE uname=? OR email=?; ";
+        $sql = "SELECT * FROM user WHERE username=? OR email=?; ";
         $stmt = mysqli_stmt_init($conn);
         if (!mysqli_stmt_prepare($stmt, $sql))
         {
-            echo "<script>alert('SQL Error Occurred ');
-            document.location='../login_mw.php'</script>";
+            echo mysqli_error($conn);
+           // echo "<script>document.location='../login_mw.php'</script>";
             exit();
         }
         else
@@ -29,7 +29,7 @@ if (isset($_POST['lobtn']))
             $result = mysqli_stmt_get_result($stmt);
             if ($row = mysqli_fetch_assoc($result))
             {
-                $pwdCheck = password_verify($password, $row["pwd"]);
+                $pwdCheck = password_verify($password, $row["password"]);
                 if ($pwdCheck == false)
                 {
                     echo "<script>alert('Wrong Password ');
@@ -43,7 +43,7 @@ if (isset($_POST['lobtn']))
                     $_SESSION['userfname'] = $row['fname'];
                     $_SESSION['userlname'] = $row['lname'];
                     $_SESSION['username'] = $row['uname'];
-                    header("Location:../patient-dashboard/dashboard.php?loginsuccess");
+                    header("Location:../dashboardmw.php?loginsuccess");
                     exit();
                 }
                 else

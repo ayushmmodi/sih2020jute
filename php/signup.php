@@ -76,10 +76,10 @@ if (isset($_POST['rebtn']))
                 $sql = "INSERT INTO user(first_name,last_name,email,mobile_number,username,password,role,verify) VALUES (?,?,?,?,?,?,?,?)";
                 $stmt = mysqli_stmt_init($conn);
                 if (!mysqli_stmt_prepare($stmt, $sql))
-                {
-                    echo "<script>alert('SQL Error Occurred ');
-                    document.location='../register.php'</script>";
-                    exit();
+                {   echo mysqli_error($conn);
+                    // echo "<script>alert('SQL Error Occurred ');
+                    // document.location='../register.php'</script>";
+                    // exit();
                 }
                 else
                 {

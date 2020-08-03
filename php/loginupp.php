@@ -14,12 +14,12 @@ if (isset($_POST['lobtn']))
     }
     else
     {
-        $sql = "SELECT * FROM login_signupp WHERE uname=? OR email=?; ";
+        $sql = "SELECT * FROM user WHERE uname=? OR email=?; ";
         $stmt = mysqli_stmt_init($conn);
         if (!mysqli_stmt_prepare($stmt, $sql))
         {
             echo "<script>alert('SQL Error Occurred ');
-            document.location='../loginp.php'</script>";
+            document.location='../login_mw.php'</script>";
             exit();
         }
         else
@@ -33,7 +33,7 @@ if (isset($_POST['lobtn']))
                 if ($pwdCheck == false)
                 {
                     echo "<script>alert('Wrong Password ');
-                    document.location='../loginp.php'</script>";
+                    document.location='../login_mw.php'</script>";
                     exit();
                 }
                 elseif ($pwdCheck == true)
@@ -49,14 +49,14 @@ if (isset($_POST['lobtn']))
                 else
                 {
                     echo "<script>alert('Wrong Password ');
-                    document.location='../loginp.php'</script>";
+                    document.location='../login_mw.php'</script>";
                     exit();
                 }
             }
             else
             {
                 echo "<script>alert('There is nouser with this Email or Username  ');
-                 document.location='../loginp.php'</script>";
+                 document.location='../login_mw.php'</script>";
             }
         }
     }

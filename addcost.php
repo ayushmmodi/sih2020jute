@@ -46,17 +46,20 @@
                   <div class="card-body">
                     <h4 class="card-title">Add Costing</h4>
                     <p class="card-description"> of your production </p>
-                    <form class="forms-sample">
+                    <form class="forms-sample" action="php/cost.php" method="post">
 
+
+         
+                    
                       <div class="form-group">
                         <label for="exampleInputName1">SEEDS PURCHASED</label>
-                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                        <input type="text" class="form-control" name="seed_bills" id="exampleInputName1" placeholder="Name">
                       </div>
                     
 
                     <div class="form-group">
-                        <label for="exampleInputMobile" >WATAER BILLS</label>
-                         <input type="text" class="form-control" id="exampleInputMobile" placeholder="Weight">
+                        <label for="exampleInputMobile" >WATER BILLS</label>
+                         <input type="text" class="form-control" name="water_bills" id="exampleInputMobile" placeholder="Weight">
                        
                       </div>
 
@@ -71,27 +74,32 @@
                     
                     <div class="form-group">
                         <label for="exampleInputMobile" >ELECTRICITY BILLS</label>
-                         <input type="text" class="form-control" id="exampleInputMobile" placeholder="Mobile number">
+                         <input type="text" class="form-control" name="electricity_bills" id="exampleInputMobile" placeholder="Mobile number">
                        
                       </div>
 
                       <div class="form-group">
-                        <label for="exampleInputMobile" >HARVESTING BILLS</label>
-                         <input type="text" class="form-control" id="exampleInputMobile" placeholder="Mobile number">
+                        <label for="exampleInputMobile" >CHEMICAL BILLS</label>
+                         <input type="text" class="form-control" name="chemical_bills" id="exampleInputMobile" placeholder="Mobile number">
+                       
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputMobile" >EQUIPMENTS BILLS</label>
+                         <input type="text" class="form-control" name="equipments_bills" id="exampleInputMobile" placeholder="Mobile number">
                        
                       </div>
                       <div class="form-group">
                         <label for="exampleInputMobile" >TRANSPORT BILLS</label>
-                         <input type="text" class="form-control" id="exampleInputMobile" placeholder="Mobile number">
+                         <input type="text" class="form-control" name="transport_bills" id="exampleInputMobile" placeholder="Mobile number">
                        
                       </div>
                       <div class="form-group">
                         <label for="exampleInputMobile" >OTHER (COST AND NARRATION)</label>
-                         <input type="text" class="form-control" id="exampleInputMobile" placeholder="Mobile number">
+                         <input type="text" class="form-control" name="other_cost" id="exampleInputMobile" placeholder="Mobile number">
                        
                       </div>
                       
-                      <button type="submit" class="btn btn-gradient-primary mr-2">Submit</button>
+                      <button type="submit" name="submit" class="btn btn-gradient-primary mr-2">Submit</button>
                       <button class="btn btn-light">Cancel</button>
                     </form>
                   </div>

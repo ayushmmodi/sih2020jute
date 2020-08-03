@@ -26,10 +26,10 @@ session_start();
            <li class="nav-li list">
              <a  href="./index.php">Home</a>
            </li>
-           <li class="nav-li list"><a  href="./about.php">About Us</a></li>
+           <li class="nav-li list"><a  href="./about.html">About Us</a></li>
            
            <li class="nav-li list"><a href="./statue.php">Statute</a></li>
-           <li class="nav-li list"><a href="./register.php">Data And Stats</a></li>
+           <li class="nav-li list"><a href="#">Data And Stats</a></li>
         
    
                 <li class="nav-li list"> <a class="current" href="login.php" data-toggle="modal" data-target="#employee-login-modal" > 
@@ -55,6 +55,7 @@ session_start();
       </br><br>
       <form action="./php/loginup.php" method="POST">
         <div class="form-group">
+          
           <i class="fa fa-user icon"></i>
           <input class="input-field" type="text" placeholder="Username or Email" id="email" name="email">
           <br>

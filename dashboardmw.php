@@ -45,7 +45,7 @@
                 </ul>
               </nav>
             </div> -->
-            <?php include('farmer_form.php'); ?>
+            <?php include('mill_worker_reg.php'); ?>
             <div class="row">
               <div class="col-md-4 stretch-card grid-margin">
                 <div class="card bg-gradient-danger card-img-holder text-white">

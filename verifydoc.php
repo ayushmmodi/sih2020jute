@@ -25,37 +25,22 @@
     <?php include('nav.php'); ?>
     <div class="main-panel">
 		<div class="content-wrapper">
-				<div class="row" id="proBanner">
-				  <div class="col-12">
-					<span class="d-flex align-items-center purchase-popup">
-					<table>
-					  <tr>
-					  <td style="width:500px; ">
-					  Kantilal Bodh
-					  </td>
-					  <td style="width:500px">
-					  <a href="google.com" id ="check11" target="_blank">Verify Documents</a>
-					  </td>
-					  <td id="data1" style="width:500px; display:none">
-					  <a href="https://github.com/BootstrapDash/PurpleAdmin-Free-Admin-Template" target="_blank" class="btn btn-gradient-danger btn-fw">Deny</a>
-					  <a href="https://www.bootstrapdash.com/product/purple-bootstrap-4-admin-template/" target="_blank" class="btn purchase-button">Accept</a>
-					  </td>
-					  </tr>
-					  <i class="mdi mdi-close" id="bannerClose"></i>
-					  
-					  </table>
-					</span>
-				  </div>
-				</div>
+				
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 
              $(document).ready(function(){
       //function to calculate total
      
-      $('#check11').click(function(){
-         $('#data1').show();
+      $('#rej').click(function(){
+         $('#proBanner').hide();
       });
+
+         $('#accreq').click(function(){
+         $('#proBanner').hide();
+      });
+
+
 });
 
 </script>
@@ -68,11 +53,11 @@
 					  Ayush Jutewala
 					  </td>
 					 <td style="width:500px">
-					  <a href="google.com" target="_blank">Verify Documents</a>
+					  <a href="verfdoc.php?id=ff" target="_blank">Verify Documents</a>
 					  </td>
 					  <td style="width:500px">
-					  <a href="https://github.com/BootstrapDash/PurpleAdmin-Free-Admin-Template" target="_blank" class="btn btn-gradient-danger btn-fw">Deny</a>
-					  <a href="https://www.bootstrapdash.com/product/purple-bootstrap-4-admin-template/" target="_blank" class="btn purchase-button">Accept</a>
+					  <a href="#" id="rej" class="btn btn-gradient-danger btn-fw">Deny</a>
+					  <a href="acceptfarmer.php" id="accreq" target="_blank" class="btn purchase-button">Accept</a>
 					  </td>
 					  </tr>
 					  <i class="mdi mdi-close" id="bannerClose"></i>
@@ -82,74 +67,7 @@
 				  </div>
 				</div>
 				
-				<div class="row" id="proBanner">
-				  <div class="col-12">
-					<span class="d-flex align-items-center purchase-popup">
-					<table>
-					  <tr>
-					  <td style="width:500px">
-					  Manilal Sharma
-					  </td>
-					  <td style="width:500px">
-					  <a href="google.com" target="_blank">Verify Documents</a>
-					  </td>
-					  <td style="width:500px">
-					  <a href="https://github.com/BootstrapDash/PurpleAdmin-Free-Admin-Template" target="_blank" class="btn btn-gradient-danger btn-fw">Deny</a>
-					  <a href="https://www.bootstrapdash.com/product/purple-bootstrap-4-admin-template/" target="_blank" class="btn purchase-button">Accept</a>
-					  </td>
-					  </tr>
-					  <i class="mdi mdi-close" id="bannerClose"></i>
-					  
-					  </table>
-					</span>
-				  </div>
-				</div>
 				
-				<div class="row" id="proBanner">
-				  <div class="col-12">
-					<span class="d-flex align-items-center purchase-popup">
-					<table>
-					  <tr>
-					  <td style="width:500px">
-					  Champaklal Gada
-					  </td>
-					  <td style="width:500px">
-					  <a href="google.com" target="_blank">Verify Documents</a>
-					  </td>
-					  <td style="width:500px">
-					  <a href="https://github.com/BootstrapDash/PurpleAdmin-Free-Admin-Template" target="_blank" class="btn btn-gradient-danger btn-fw">Deny</a>
-					  <a href="https://www.bootstrapdash.com/product/purple-bootstrap-4-admin-template/" target="_blank" class="btn purchase-button">Accept</a>
-					  </td>
-					  </tr>
-					  <i class="mdi mdi-close" id="bannerClose"></i>
-					  
-					  </table>
-					</span>
-				  </div>
-				</div>
-				
-				<div class="row" id="proBanner">
-				  <div class="col-12">
-					<span class="d-flex align-items-center purchase-popup">
-					<table>
-					  <tr>
-					  <td style="width:500px">
-					  Jethalal Gada
-					  </td>
-					 <td style="width:500px">
-					  <a href="google.com" target="_blank">Verify Documents</a>
-					  </td>
-					  <td style="width:500px">
-					  <a href="https://github.com/BootstrapDash/PurpleAdmin-Free-Admin-Template" target="_blank" class="btn btn-gradient-danger btn-fw">Deny</a>
-					  <a href="https://www.bootstrapdash.com/product/purple-bootstrap-4-admin-template/" target="_blank" class="btn purchase-button">Accept</a>
-					  </td>
-					  </tr>
-					  <i class="mdi mdi-close" id="bannerClose"></i>
-					  
-					  </table>
-					</span>
-				  </div>
-				</div>
           
           <!-- content-wrapper ends -->
           <!-- partial:partials/_footer.html -->

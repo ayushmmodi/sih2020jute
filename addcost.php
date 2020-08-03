@@ -53,13 +53,13 @@
                     
                       <div class="form-group">
                         <label for="exampleInputName1">SEEDS PURCHASED</label>
-                        <input type="text" class="form-control" name="seed_bills" id="exampleInputName1" placeholder="Name">
+                        <input type="text" class="form-control" name="seed_bills" id="exampleInputName1" placeholder="Name" required>
                       </div>
                     
 
                     <div class="form-group">
                         <label for="exampleInputMobile" >WATER BILLS</label>
-                         <input type="text" class="form-control" name="water_bills" id="exampleInputMobile" placeholder="Weight">
+                         <input type="text" class="form-control" name="water_bills" id="exampleInputMobile" placeholder="Weight" required>
                        
                       </div>
 
@@ -74,28 +74,28 @@
                     
                     <div class="form-group">
                         <label for="exampleInputMobile" >ELECTRICITY BILLS</label>
-                         <input type="text" class="form-control" name="electricity_bills" id="exampleInputMobile" placeholder="Mobile number">
+                         <input type="number" class="form-control" name="electricity_bills" id="exampleInputMobile" placeholder="Mobile number" required>
                        
                       </div>
 
                       <div class="form-group">
                         <label for="exampleInputMobile" >CHEMICAL BILLS</label>
-                         <input type="text" class="form-control" name="chemical_bills" id="exampleInputMobile" placeholder="Mobile number">
+                         <input type="number" class="form-control" name="chemical_bills" id="exampleInputMobile" placeholder="Mobile number" required>
                        
                       </div>
                       <div class="form-group">
                         <label for="exampleInputMobile" >EQUIPMENTS BILLS</label>
-                         <input type="text" class="form-control" name="equipments_bills" id="exampleInputMobile" placeholder="Mobile number">
+                         <input type="number" class="form-control" name="equipments_bills" id="exampleInputMobile" placeholder="Mobile number" required>
                        
                       </div>
                       <div class="form-group">
                         <label for="exampleInputMobile" >TRANSPORT BILLS</label>
-                         <input type="text" class="form-control" name="transport_bills" id="exampleInputMobile" placeholder="Mobile number">
+                         <input type="number" class="form-control" name="transport_bills" id="exampleInputMobile" placeholder="Mobile number" required>
                        
                       </div>
                       <div class="form-group">
                         <label for="exampleInputMobile" >OTHER (COST AND NARRATION)</label>
-                         <input type="text" class="form-control" name="other_cost" id="exampleInputMobile" placeholder="Mobile number">
+                         <input type="number" class="form-control" name="other_cost" id="exampleInputMobile" placeholder="Mobile number" required>
                        
                       </div>
                       
